@@ -4,8 +4,8 @@ Order to work on files:
 
 <ul>
   <li>mainFile.cpp</li>
-  <li>Movie.h</li>
-  <li>Movie.cpp</li>
+  <li>Song.h</li>
+  <li>Song.cpp</li>
   <li>makefile</li>
 </ul>
 
