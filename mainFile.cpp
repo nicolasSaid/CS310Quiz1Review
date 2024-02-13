@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Movie.h"
+#include "Song.h"
 
 using namespace std;
 
@@ -17,12 +17,12 @@ int main(){
  * these lines call?
  **/
 
-    Movie a(0, s1);
-    Movie b(a);
-    Movie c = a;
-    Movie d;
+    Song a(0, s1);
+    Song b(a);
+    Song c = a;
+    Song d;
     d = c;
-    Movie e;
+    Song e;
 
     cout << endl << endl;
 
@@ -36,13 +36,13 @@ int main(){
 
     // Manually setting values
     b.set_title_pointer_memory(s2);
-    b.num_inc_value(n);
+    b.plays_inc_value(n);
 
     c.set_title_pointer_memory(s3);
-    c.num_inc_reference(n);
+    c.plays_inc_reference(n);
 
     d.set_title_pointer_memory(s4);
-    d.num_inc_value(n);
+    d.plays_inc_value(n);
 
     cout << endl << endl;
 
